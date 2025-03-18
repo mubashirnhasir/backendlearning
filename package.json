@@ -14,7 +14,10 @@
   },
   "dependencies": {
     "chalk": "^4.1.2",
+    "cowsay": "^1.6.0",
     "dotenv": "^16.4.7",
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.21",
     "progress": "^2.0.3",
     "prompt-sync": "^4.2.0"
   }
