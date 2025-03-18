@@ -1,14 +1,15 @@
-console.log("Mubashir")
+// console.log("Mubashir")
 
 
-async function sleep(milliseconds){
+// async function sleep(milliseconds){
     
-    console.log("Operation is running");
-    setTimeout(()=>{
-        console.log("Operation is done")
-    }, milliseconds)
-}
+//     console.log("Operation is running");
+//     setTimeout(()=>{
+//         console.log("Operation is done")
+//     }, milliseconds)
+// }
 
-sleep(1000)
+// sleep(1000)
 
-console.log("HEHEHHEHEH");
+// console.log("HEHEHHEHEH");
+
