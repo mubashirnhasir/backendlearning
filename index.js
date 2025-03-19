@@ -20,9 +20,9 @@
 // console.log(JSON.stringify(tesla, null, 2))
 // console.log(JSON.stringify(hyndai, null, 2))
 
-const path = require("path")
+// const path = require("path")
 
-const file = "C:/Users/talen/OneDrive/Desktop/backendlearning/files/sample.txt"
+// const file = "C:/Users/talen/OneDrive/Desktop/backendlearning/files/sample.txt"
 
 // // nam of the file
 // console.log(path.basename(file));
@@ -33,16 +33,16 @@ const file = "C:/Users/talen/OneDrive/Desktop/backendlearning/files/sample.txt"
 // //name of the directory
 // console.log(path.dirname(file));
 
-const fs = require("fs")
-const fsPromise = require("fs/promises")
+// const fs = require("fs")
+// const fsPromise = require("fs/promises")
 // fs.readFile(file, "utf-8", (err,data )=>{
 //     if(err) throw new Error("Not a file you are looking for ")
 //         console.log(data);
 
 // })
 
-const textFile = path.join(__dirname, "files", "text.txt")
-const content = "I love fasting during ramadan"
+// const textFile = path.join(__dirname, "files", "text.txt")
+// const content = "I love fasting during ramadan"
 
 // fs.writeFile(textFile, content, (error) => {
 //     if (error) throw new Error("Something went wrong")
@@ -54,16 +54,16 @@ const content = "I love fasting during ramadan"
 //     })
 // })
 
-const writingData = async () => {
-    try {
-        await fsPromise.writeFile(textFile, content)
-        await fsPromise.appendFile(textFile, "\n This is an appending file data")
-        const data = await fsPromise.readFile(textFile, "utf-8")
-        console.log(data);
+// const writingData = async () => {
+//     try {
+//         await fsPromise.writeFile(textFile, content)
+//         await fsPromise.appendFile(textFile, "\n This is an appending file data")
+//         const data = await fsPromise.readFile(textFile, "utf-8")
+//         console.log(data);
         
-    } catch (error) {
-        console.log(error);
-    }
-}
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
 
-writingData()
+// writingData()
